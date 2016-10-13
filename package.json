@@ -1,0 +1,26 @@
+{
+  "name": "vice-code-test",
+  "version": "0.0.1",
+  "description": "VICE code test",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyHP/vice-code-test.git"
+  },
+  "author": "Roy Hill-Percival",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoyHP/vice-code-test/issues"
+  },
+  "homepage": "https://github.com/RoyHP/vice-code-test#readme"
+}
