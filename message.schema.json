@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "TextMessage",
+	"description": "Text message object for VICE code test",
+	"type": "object",
+	"properties": {
+		"message": {
+			"description": "The message content",
+			"type": "string"
+		},
+		"author": {
+			"description": "Name of the message author",
+			"type": "string"
+		}
+	},
+	"required": ["message", "author"]
+}
