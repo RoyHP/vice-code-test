@@ -1,0 +1,11 @@
+Hey Roy, it was nice meeting you over the phone. Here is the code test simply send it back to us when you are done or put it up on github.
+
+1. create a server that accepts new messages from a `POST /message` endpoint
+2. create a `GET /messages` endpoint that allows clients to see all messages
+3. implement a way for the server to broadcast the messages to all connected clients
+4. implement simple tests
+
+- should only use the `http` class from node, no frameworks like `express`
+- bonus point use babel and es6 syntax, specially features like `class`, `import / export` and object spread
+
+Feel free to email me with any questions,
