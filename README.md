@@ -6,6 +6,7 @@ The api.paw file is the more definitive means of testing the API
 - Naive testing of internal classes
 - JSON schema for the message object included
 - Paw file included to test the API (you should do the GET request in chrome and use Paw or Postman to send off the POST requests)
+- http is the only core dependency (other than testing frameworks mocha/chai)
 
 ### API Documentation (fast)
 Normally I would create a table breakdown of parameters, types, headers, etc.
